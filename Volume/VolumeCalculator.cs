@@ -39,10 +39,10 @@ namespace Volume
             return cylinder;
         }
 
-        public double VolumeOfPrism(double baseA, double height)
+        public double VolumeOfPrism(double baseA, double height, double length)
         {
             double prism = 0;
-            prism = (1 / 2 * baseA * height) * height;
+            prism = (0.5 * baseA * height) * length;
             return prism;
         }
     }
